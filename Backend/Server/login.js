@@ -24,6 +24,9 @@ const UserSchema = new mongoose.Schema({
 });
 
 const User = mongoose.model("User", UserSchema);
+app.get("/", async (req, res) => {
+  return res.status(200).json({ message: "Successful" });
+});
 
 app.post("/api/login", async (req, res) => {
   try {
