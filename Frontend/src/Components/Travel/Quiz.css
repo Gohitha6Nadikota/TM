@@ -1,0 +1,32 @@
+.travel-quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .question {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .card:hover {
+    background-color: #f1f1f1;
+  }

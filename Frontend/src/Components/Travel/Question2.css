@@ -1,0 +1,35 @@
+.question {
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 150px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .card:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .card span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
