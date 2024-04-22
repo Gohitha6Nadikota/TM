@@ -31,7 +31,7 @@ const Login = () =>
     e.preventDefault();
 
     axios
-      .post("http://localhost:3001/api/login", formData)
+      .post("https://tm-3rbg.onrender.com/api/login", formData)
       .then((response) => {
         const token = response.data.token;
         localStorage.setItem("jwtToken", token);
