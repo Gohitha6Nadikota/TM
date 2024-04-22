@@ -35,7 +35,7 @@ const Register = () => {
     }
 
     axios
-      .post("http://localhost:3001/api/register", {
+      .post("https://tm-3rbg.onrender.com/api/register", {
         username: formData.username,
         password: formData.password,
         firstName: formData.firstName,
